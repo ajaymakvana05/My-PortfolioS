@@ -33,11 +33,15 @@ ul {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .about-area .icons .icon-stroke {
-    color: #fff; /* White color */
+    color: #fff;
+    /* White color */
     stroke-width: 1.5;
-    stroke: #fff; /* Same color for stroke */
+    stroke: #fff;
+    /* Same color for stroke */
 }
+
 /* Header */
 header {
     padding-top: 10px;
@@ -486,16 +490,23 @@ header nav i {
 .about-inner {
     background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
     border-radius: 30px;
-    width: 322px;
-    height: 313px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
 
 }
 
 .about-inner img {
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     transform: scale(1.4);
+    margin: 0 auto;
     filter: grayscale(90%);
+    object-fit: cover;
     margin-top: 4px;
 }
 
@@ -669,7 +680,7 @@ header nav i {
 }
 
 .about-profile-box .about-contact-box .about-btn {
-    margin-left: 15% ;
+    margin-left: 15%;
     margin-top: 10%;
 }
 
@@ -1229,17 +1240,18 @@ textarea {
     background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
     border-radius: 30px;
     margin-bottom: 40px;
-    height: 323px;
-    /* margin: 0; */
+    height: 100%;
+    overflow: hidden;
 }
 
 .credentail-sidebar .img-box img {
     width: 100%;
     height: 100%;
     justify-content: center;
+
     align-items: center;
     display: flex;
-    margin-left: -20px;
+    /* margin-left: -20px; */
     transform: scale(1);
     filter: grayscale(90%);
     object-fit: cover;

@@ -125,7 +125,7 @@ function Home() {
                                     <div className="infos mt-4">
                                         <h5>A WEB DEVELOPER</h5>
                                         <h1>AJAY MAKAVANA</h1>
-                                        <p>I am a Web Developer based in Pune.</p>
+                                        <p>I am a Web Developer based in US.</p>
                                         <a href="#" className="about-btn">
                                             <img src={icon} alt="" className="mt-4" />
                                         </a>
@@ -231,15 +231,15 @@ function Home() {
                                 <div className=" info-box col-6  d-flex  justify-content-center align-items-center gap-2 "
                                     data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                                     <div className="client-item col-4">
-                                        <h2>00</h2>
-                                        <p>Years <br />Experience</p>
+                                        <h2>6+</h2>
+                                        <p>Month <br />Experience</p>
                                     </div>
                                     <div className="client-item col-4">
-                                        <h2>+00</h2>
+                                        <h2>--</h2>
                                         <p>CLIENTS <br />WORLDWIDE</p>
                                     </div>
                                     <div className="client-item col-4">
-                                        <h2>+50</h2>
+                                        <h2>+20</h2>
                                         <p>TOTAL <br />PROJECTS</p>
                                     </div>
                                 </div>
